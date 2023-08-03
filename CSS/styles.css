@@ -1,5 +1,10 @@
-* {
+nav{
     background-color: aquamarine;
     box-sizing: border-box;
     margin: 0;
+
+}
+
+header {
+    background-color: red;
 }
