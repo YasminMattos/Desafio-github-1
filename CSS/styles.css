@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 nav{
     background-color: aquamarine;
     box-sizing: border-box;
@@ -7,4 +11,36 @@ nav{
 
 header {
     background-color: red;
+}
+
+.imagen {
+   background-image: url("../img/viajero.jpg");
+   width: 98vw;
+   height: 100vh;
+   background-size: cover;
+   display: block;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.footer {
+    background-color: rgb(42, 190, 192);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+ul, li {
+    list-style-type: none ;
+    padding: 0;
+}
+
+#articulos {
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
 }
