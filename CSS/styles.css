@@ -1,10 +1,38 @@
-nav{
-    background-color: aquamarine;
+* {
+    border: 0;
     box-sizing: border-box;
     margin: 0;
-
+    padding: 0;
 }
 
 header {
-    background-color: red;
+    background-color: #373737;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 20px 35px;
 }
+
+/* Sección del navegador */
+.nav-list ul{
+    background-color: #5d5d5d;
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav-list li {
+    list-style-type: none;
+    text-align: center;
+    margin: 30px 90px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+
+}
+
+.nav-list li a {
+    padding: 2px 7px 2px 7px;
+    color: #f6f7fa;
+    text-decoration: none;
+
+}
+
